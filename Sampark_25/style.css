@@ -1,0 +1,369 @@
+body{
+    font-family: "Playfair_Display";
+    background-image: url('bg2.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center; 
+    height: 100vh; 
+    margin: 0;
+}
+
+/* Style for hiding content */
+.hidden {
+    display: none;
+}
+
+@keyframes marquee-animation {
+    from {
+        transform: translateX(80%);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+.marquee {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    border-bottom: 2px solid #ddd;
+    padding: 10px 0;
+}
+
+.marquee-content {
+    display: inline-block;
+    animation: marquee-animation 20s linear infinite;
+    /* padding-left: 20%; */
+}
+
+.marquee-content img {
+    width: 100px;
+    height: auto;
+    margin: 0 30px;
+    display: inline-block;
+}
+
+/* Style for active link in navbar */
+.nav-link{
+    color: black;
+}
+
+.navbar .nav-link.active {
+    text-decoration: underline;
+    font-weight: bold;
+    color: #0056b3;
+}
+
+.nav-item{
+    font-weight: 500;
+    font-size: 20px;
+}
+
+ul{
+    font-size: 14px ;
+    gap: 80px;
+    font-weight: 450;
+}
+
+.sub-heading{
+    font-family: 'Playfair_Display variant1'; 
+    font-style: italic; 
+    font-stretch: normal; 
+    width: 1000px; 
+    text-align: center; 
+    margin-left: 150px;
+    margin-top: -60px;
+}
+
+.banner{
+    margin-left: 20px;
+    /* border: 10px #01101f solid; */
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.home-contact{
+    width: 1246px;
+    margin-left: 20px;
+}
+
+/* .btn{
+    font-size: 20px;
+}
+.download-link {
+    color: #0056b3;
+    transition: background-color 0.3s ease;
+    font-size: 20px;
+} */
+.about-sm{
+    text-align: justify;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 22px;
+    font-weight: 500;
+    width: 1246px;
+}
+.about-sb{
+    text-align: justify;
+    margin-left: 20px;
+    width: 1246px;
+    margin-top: 20px;
+    font-size: 22px;
+    font-weight: 500;
+}
+.img-sb{
+    float: right;
+    border: 1px solid black;
+    margin: 0px 0px 15px 20px;
+}
+/* table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 16px;
+    text-align: left;
+}
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+}
+th {
+    background-color: #f2f2f2;
+} */
+
+.styled-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 16px;
+    text-align: left;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fc;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgb(63, 177, 243);
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+
+.styled-table th {
+    background-color:rgb(45, 134, 185) ;
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    border: 1px solid #dcdcdc;
+}
+
+.styled-table td {
+    border: 1px solid #dcdcdc;
+    text-align: center;
+    font-size: 18px;
+    background-color: #ffffff;
+}
+
+.styled-table tr:nth-child(even) td {
+    background-color: #f3f4fc;
+}
+
+.styled-table tr:hover td {
+    background-color: #eaf1fd;
+}
+
+/* Individual card styling */
+.card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+    overflow: hidden;
+    padding: 8px;
+    gap: 10px;
+    min-width: 400px;
+    min-height: 450px;
+    max-height: 600px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card-img img {
+    width: 100%;
+    height: 200px;
+    object-fit:cover;
+    border-bottom: 1px solid #ddd;
+}
+
+.card-body {
+    padding: 15px;
+}
+
+.card-title {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    text-align: justify;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #555;
+}
+
+/* Lists inside cards */
+.card-text ul {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+.card-text ul li {
+    margin-bottom: 5px;
+    
+}
+.list-text{
+    font-size: 16px;
+}
+/* Styles of registration page  */
+.registration-guidelines{
+    border: 3px rgb(48, 48, 48) solid;
+    padding: 14px;
+}
+
+.registration-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 40px;
+    background-color: none;
+}
+
+.left-section, .right-section {
+    flex: 1;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f8faff;
+}
+
+ol {
+    margin: 0;
+    padding-left: 20px;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.registration-link {
+    margin-top: 30px;
+}
+
+.registration-link h2 {
+    font-size: 28px;
+    color: #003a8c;
+    margin-bottom: 10px;
+}
+
+.register-button {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #004aad;
+    color: white;
+    border-radius: 5px;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.register-button:hover {
+    background-color: #003a8c;
+}
+
+.divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #004aad;
+    background-color: #f0f5ff;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.right-section h2 {
+    text-align: center;
+    color: #004aad;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.qr-code {
+    display: block;
+    margin: 0 auto;
+    max-width: 300px;
+    border: 5px solid #dfeaff;
+    border-radius: 10px;
+}
+
+/* Contact Us PAGE  */
+
+.contact-person h4{
+    margin-bottom: 0.5rem;
+}
+.contact-person p {
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+    color: #444;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);    
+}
+
+.social-icons a {
+    font-size: 1.5rem;
+    color: #007bff;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #0056b3;
+}
+
+.map-container iframe {
+    border: none;
+    border-radius: 8px;
+}
+
+.page-title{
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 0px;
+}
+.email{
+    font-size: 22px;
+    font-weight: 500;
+}
+a{
+    text-decoration: none;
+}
+.social-icon{
+    height: 40px;
+    width: 40px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: rgb(45, 134, 185);
+}
