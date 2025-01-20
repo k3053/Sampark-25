@@ -1,11 +1,29 @@
 body{
     font-family: "Playfair_Display";
-    background-image: url('bg2.jpg');
+    position: relative;
+    background: none;
+    /* background-image: url('bg2.jpg'); */
+    /* background-size: cover; */
+    /* background-attachment: fixed; */
+    /* background-position: center; */
+    /* height: 100vh;  */
+    margin: 0;
+}
+
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./Images/bg2.jpg');
     background-size: cover;
     background-attachment: fixed;
-    background-position: center; 
-    height: 100vh; 
-    margin: 0;
+    background-position: center;
+    /* height: 100hv; */
+    opacity: 0.45; /* Adjust opacity as needed */
+    z-index: -1;
 }
 
 /* Style for hiding content */
@@ -110,10 +128,15 @@ ul{
     font-size: 22px;
     font-weight: 500;
 }
-.img-sb{
+.img-sbr{
     float: right;
     border: 1px solid black;
     margin: 0px 0px 15px 20px;
+}
+.img-sbl{
+    float: left;
+    border: 1px solid black;
+    margin: 0px 0px 100px 0px;
 }
 /* table {
     width: 100%;
