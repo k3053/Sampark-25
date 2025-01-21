@@ -205,10 +205,23 @@ th {
     padding: 8px;
     gap: 10px;
     min-width: 400px;
-    min-height: 450px;
-    max-height: 600px;
+    /* min-height: 450px;
+    max-height: 600px; */
     margin-top: 50px;
     margin-bottom: 50px;
+}
+.datathon-card{
+    min-height: 600px;
+}
+.networking-card{
+    min-height: 550px;
+}
+.mental-awareness{
+    height: 620px;
+}
+.other-events {
+    min-width: 250px;
+    height: 520px;
 }
 
 .card:hover {
@@ -283,6 +296,9 @@ ol {
     line-height: 1.6;
 }
 
+.right-section{
+    min-height: 650px;
+}
 .registration-link {
     margin-top: 30px;
 }
@@ -333,8 +349,8 @@ ol {
 
 .qr-code {
     display: block;
-    margin: 0 auto;
-    max-width: 300px;
+    margin: 50px auto;
+    max-width: 80%;
     border: 5px solid #dfeaff;
     border-radius: 10px;
 }
@@ -389,4 +405,191 @@ a{
     margin-bottom: 20px;
     text-decoration: none;
     color: rgb(45, 134, 185);
+}
+
+.main-logo{
+    height: 20%;
+    width: 100%;
+}
+.banner{
+    width: 1246px;
+}
+.home-location{
+    margin-left: 55%;
+}
+.img-sbr{
+    width:50%;
+    height:110%;
+}
+.responsive-list {
+    font-size: 20px;
+    line-height: 1.6;
+    margin: 10px 0;
+    padding-left: 20px;
+}
+.timeline-table-div{
+    margin-top: 20px; 
+    margin-left: 20px; 
+    width: 100%;
+}
+.left-section h5{
+    color: red; 
+    font-size: 22px; 
+    font-weight: 600;
+}
+/* Responsive styles  */
+@media (max-width: 768px) {
+
+    .about-sm, .about-sb {
+        margin: 10px;
+        font-size: 16px;
+    }
+
+    .page-title{
+        font-size: 16px;
+    }
+
+    .sub-heading {
+        font-size: 16px;
+        width: 100%;
+        margin-left: -8px;
+    }
+
+    .banner{
+        width: 90%;
+    }
+    .navbar-brand img {
+        height: 50px;
+        width: auto;
+    }
+
+    .home-contact {
+        margin-left: 0;
+        width: 100%;
+    }
+    .home-location{
+        display: none;
+    }
+    .nav-item{
+        font-weight: 500;
+        font-size: 14px;
+    }
+    
+    ul{
+        font-size: 14px ;
+        gap: 5px;
+        font-weight: 450;
+        margin-left: 10%;
+    }
+    
+    .navbar-toggler-icon{
+        width: 20px;
+    }
+
+    #about-sampark .about-sm{
+        width: 90%;
+    }
+
+    #about-scet-sb .about-sb{
+        width: 90%;
+        font-size: 16px;
+    }
+    .responsive-list {
+        font-size: 16px;
+    }
+    .timeline-table-div{
+        width: 90%;
+        font-size: 16px;
+    }
+    .timeline-table-div h4{
+        font-size: 16px;
+    }
+    .styled-table {
+        font-size: 12px;
+    }
+    .styled-table th, .styled-table td {
+        padding: 2px 4px;
+        font-size: 12px;
+    }
+    .card{
+        max-width: 90%;
+        margin-left: 5%;
+    }
+    .datathon-card{
+        min-height: 600px;
+    }
+    .networking-card{
+        min-height: 550px;
+    }
+    .other-events {
+        min-width: 250px;
+        height: 100px;
+    }
+    .mental-awareness{
+        height: 100px;
+    }
+
+    .card-title {
+        font-size: 18px;
+    }
+
+    .card-text {
+        font-size: 14px;
+    }
+
+    .card-img img {
+        height: 160px;
+    }
+    .left-section h5{
+        color: red; 
+        font-size: 16px; 
+        font-weight: 600;
+    }
+    .registration-link h4{
+        font-size: 16px; 
+    }
+    .register-button{
+        font-size: 16px;
+    }
+    .right-section h2 {
+        font-size: 16px;
+    }
+    .contact-person h4{
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .contact-person p{
+        font-size: 15px;
+    }
+    .contact-person{
+        margin-bottom: 20px;
+    }
+    .social-div h4{
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .social-div .social-icon{
+        height: 20px;
+        width: 20px;
+    }
+    .home-contact h4{
+        font-size: 18px;
+        font-weight: 600;
+    }
+}
+
+@media (max-width: 576px) {
+    .contact-person p {
+        font-size: 14px;
+    }
+
+    .registration-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+.map-container iframe {
+    width: 100%;
+    height: 300px;
 }
