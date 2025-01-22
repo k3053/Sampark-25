@@ -128,6 +128,20 @@ ul{
     font-size: 22px;
     font-weight: 500;
 }
+.img-sbr-college{
+    width: 400px;
+    height: 340px;
+    float: right;
+    border: 1px solid black;
+    margin: 0px 0px 15px 20px;
+}
+.img-sbr-activities{
+    float: right;
+    border: 1px solid black;
+    margin: 0px 0px 15px 20px;
+    width: 300px;
+    height: 500px;
+}
 .img-sbr{
     float: right;
     border: 1px solid black;
@@ -419,7 +433,7 @@ a{
 }
 .img-sbr{
     width:50%;
-    height:110%;
+    height:90%;
 }
 .responsive-list {
     font-size: 20px;
@@ -440,9 +454,18 @@ a{
 /* Responsive styles  */
 @media (max-width: 768px) {
 
+    .img-sbr-college{
+        width:50%;
+        height:90%;
+    }
+    .img-sbr-activities{
+        width:50%;
+        height:90%;
+    }
+
     .about-sm, .about-sb {
         margin: 10px;
-        font-size: 16px;
+        font-size: 10px;
     }
 
     .page-title{
@@ -488,14 +511,16 @@ a{
 
     #about-sampark .about-sm{
         width: 90%;
+        font-size: 14px;
     }
 
     #about-scet-sb .about-sb{
         width: 90%;
-        font-size: 16px;
+        font-size: 14px;
+        text-align: left;
     }
     .responsive-list {
-        font-size: 16px;
+        font-size: 14px;
     }
     .timeline-table-div{
         width: 90%;
@@ -513,20 +538,24 @@ a{
     }
     .card{
         max-width: 90%;
+        height: 100%;
         margin-left: 5%;
     }
     .datathon-card{
+        min-width: 250px;
         min-height: 600px;
     }
     .networking-card{
+        min-width: 250px;
         min-height: 550px;
     }
     .other-events {
         min-width: 250px;
-        height: 100px;
+        height: 400px;
     }
     .mental-awareness{
-        height: 100px;
+        min-width: 250px;
+        height: 400px;
     }
 
     .card-title {
@@ -550,6 +579,9 @@ a{
     }
     .register-button{
         font-size: 16px;
+    }
+    .right-section{
+        min-height: 350px;
     }
     .right-section h2 {
         font-size: 16px;
