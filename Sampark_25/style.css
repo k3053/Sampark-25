@@ -219,8 +219,8 @@ th {
     padding: 8px;
     gap: 10px;
     min-width: 400px;
-    /* min-height: 450px;
-    max-height: 600px; */
+    min-height: 450px;
+    max-height: 600px;
     margin-top: 50px;
     margin-bottom: 50px;
 }
@@ -440,6 +440,7 @@ a{
     line-height: 1.6;
     margin: 10px 0;
     padding-left: 20px;
+    text-align: justify;
 }
 .timeline-table-div{
     margin-top: 20px; 
