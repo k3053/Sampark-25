@@ -235,7 +235,7 @@ th {
 }
 .other-events {
     min-width: 250px;
-    height: 520px;
+    height: 550px;
 }
 
 .card:hover {
@@ -544,15 +544,24 @@ a{
     }
     .datathon-card{
         min-width: 250px;
-        min-height: 600px;
+        min-height: 650px;
+    }
+    .datathon-card .list-text{
+        font-size: 14px;
+    }
+    .datathon-card li{
+        font-size: 12px;
     }
     .networking-card{
         min-width: 250px;
-        min-height: 550px;
+        min-height: 650px;
+    }
+    .networking-card{
+        font-size: 12px;
     }
     .other-events {
         min-width: 250px;
-        height: 400px;
+        min-height: 450px;
     }
     .mental-awareness{
         min-width: 250px;
