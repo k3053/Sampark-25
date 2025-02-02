@@ -522,7 +522,7 @@ a{
 
 .committee-card h3 {
     font-size: 15px;
-    margin: 5px 0 5px;
+    margin: 2px 0 05px;
     color: #333;
 }
 
@@ -534,11 +534,11 @@ a{
 
 .committee-card a {
     display: inline-block;
-    text-decoration: none;
+    letter-spacing: 0.9px;
     background: #007bff;
     color: white;
-    padding: 8px 20px;
-    border-radius: 5px;
+    padding: 3px 15px;
+    border-radius: 3px;
     transition: background 0.3s ease-in-out;
 }
 
