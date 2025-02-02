@@ -523,12 +523,12 @@ a{
 .committee-card h3 {
     font-size: 15px;
     margin: 2px 0 05px;
-    color: #333;
+    color: #000000;
 }
 
 .committee-card p {
     font-size: 14px;
-    color: #505050;
+    color: #454545;
     margin-bottom: 0px;
 }
 
@@ -544,6 +544,41 @@ a{
 
 .committee-card a:hover {
     background: #0056b3;
+}
+
+/* Student Committee  */
+.student-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 30px;
+    justify-items: center;
+    align-items: left;
+}
+
+.student-card {
+    background: #e8f5ff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 0% 0% 0% 1%;
+    text-align: left;
+    width: 100%;
+    max-width: 300px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.student-card:hover {
+    transform: scale(1.05);
+}
+
+.student-card h3 {
+    font-size: 18px;
+    margin: 2px 0 1px;
+    color: #000000;
+}
+
+.student-card li {
+    font-size: 16px;
+    color: #000000;
 }
 
 /* Responsive styles  */
