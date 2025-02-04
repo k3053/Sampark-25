@@ -462,6 +462,49 @@ a{
     justify-items: center;
     align-items: center;
 }
+.sponsors-grid-platinum {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 30px;
+    max-width: 48%;
+    justify-items: center;
+    align-items: center;
+}
+.sponsors-grid-silver {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 30px;
+    max-width: 48%;
+    justify-items: center;
+    align-items: center;
+}
+
+.sponsors-grid-platinum img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+.sponsors-grid-silver img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.sponsors-grid img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
 
 .sponsors-grid img {
     max-width: 100%;
@@ -473,6 +516,15 @@ a{
 }
 
 .sponsors-grid img:hover {
+    transform: scale(1.05);
+}
+.sponsors-grid-platinum img:hover {
+    transform: scale(1.05);
+}
+.sponsors-grid-gold img:hover {
+    transform: scale(1.05);
+}
+.sponsors-grid-silver img:hover {
     transform: scale(1.05);
 }
 
