@@ -174,7 +174,7 @@ th {
     margin: 25px 0;
     font-size: 16px;
     text-align: left;
-    font-family: Arial, sans-serif;
+    font-family: "Playfair_Display";
     background-color: #f8f9fc;
     border-radius: 10px;
     overflow: hidden;
@@ -714,6 +714,7 @@ a{
     .styled-table {
         font-size: 12px;
     }
+    
     .styled-table th, .styled-table td {
         padding: 2px 4px;
         font-size: 12px;
