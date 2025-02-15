@@ -472,8 +472,9 @@ a{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 30px;
-    justify-items: right;
-    align-items: right;
+    /* justify-items: right;
+    align-items: right; */
+    
 }
 
 .sponsors-grid-silver {
@@ -560,8 +561,28 @@ a{
     background-color: rgb(255, 255, 255);
     border-radius: 20px;
     align-items: center;
+    align-self: center;
     justify-items: center;
     padding: 5%;
+}
+.sponsor-img-platinum{
+    display: flex;
+    /* border: 2px rgb(0, 0, 136) solid; */
+    height: 80%;
+    width: 80%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    align-items: center;
+    align-self: center;
+    justify-items: center;
+    padding: 5%;
+}
+.sponsor-img-platinum img{
+    /* display: flex; */
+    /* border: 2px rgb(0, 0, 136) solid; */
+    height: 80%;
+    width: 80%;
+    margin-left: 10%;
 }
 
 /* Execution Committee  */
